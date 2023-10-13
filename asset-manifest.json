@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/universite-toukra-ndjamena/static/css/main.4b10ce3e.css",
-    "main.js": "/universite-toukra-ndjamena/static/js/main.7361e9ae.js",
+    "main.css": "/universite-toukra-ndjamena/static/css/main.0d0a3af5.css",
+    "main.js": "/universite-toukra-ndjamena/static/js/main.45651b5d.js",
     "static/media/temoin5.png": "/universite-toukra-ndjamena/static/media/temoin5.f6be90fde3f5888b3510.png",
     "static/media/etudiant9.png": "/universite-toukra-ndjamena/static/media/etudiant9.130a89085eb0491b722e.png",
     "static/media/etudiant1.jpg": "/universite-toukra-ndjamena/static/media/etudiant1.88563a210c2a14617fb7.jpg",
@@ -21,11 +21,11 @@
     "static/media/etudiant2.jpeg": "/universite-toukra-ndjamena/static/media/etudiant2.d99287fb97d25880b34f.jpeg",
     "static/media/etudiant6.jpeg": "/universite-toukra-ndjamena/static/media/etudiant6.43e13e40d687de1cf99e.jpeg",
     "index.html": "/universite-toukra-ndjamena/index.html",
-    "main.4b10ce3e.css.map": "/universite-toukra-ndjamena/static/css/main.4b10ce3e.css.map",
-    "main.7361e9ae.js.map": "/universite-toukra-ndjamena/static/js/main.7361e9ae.js.map"
+    "main.0d0a3af5.css.map": "/universite-toukra-ndjamena/static/css/main.0d0a3af5.css.map",
+    "main.45651b5d.js.map": "/universite-toukra-ndjamena/static/js/main.45651b5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b10ce3e.css",
-    "static/js/main.7361e9ae.js"
+    "static/css/main.0d0a3af5.css",
+    "static/js/main.45651b5d.js"
   ]
 }
