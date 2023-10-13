@@ -1,0 +1,99 @@
+/* ***********************the header container****************************** */
+#container{
+    padding: 10px 10px;
+}
+#row div{
+  font-size: 18px;
+  color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+} 
+#row div:nth-child(2){
+    border-left: 2px solid gray;
+    padding: 0 8px;
+}
+#row div:hover{
+    color: #1876f2;
+}
+#end{
+    width:98px !important;
+    display: flex !important;
+    margin: auto;
+    border-radius: 20px !important;
+}
+.modal-body{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 100%;
+    
+}
+.element{
+    padding: 20px;
+    font-size: 22px;
+    box-shadow: none;
+}
+
+.element input{
+    width: 100%;
+    padding: 20px !important;
+    border: none;
+    height: 20px;
+}
+.element input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+.element:focus{
+    outline: none;
+    display: flex;
+}
+.element button{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    #row div{
+        font-size: 16px !important;
+        color: gray;
+        margin: 0 5px;
+        cursor: pointer;
+        font-family: sans-serif;
+      }
+    #row div:nth-child(2){
+        border-left: none;
+        padding: 0 8px;
+    }
+   .row #row{
+        margin: 6px 0;
+      } 
+      .modal-body{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        width: 100%;
+        
+    }
+    #end{
+        width:95px !important;
+        display: flex !important;
+        margin: auto;
+        border-radius: 20px !important;
+    }
+
+}
