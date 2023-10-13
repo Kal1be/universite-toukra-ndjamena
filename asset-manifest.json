@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/universite-toukra-ndjamena/static/css/main.4b10ce3e.css",
+    "main.js": "/universite-toukra-ndjamena/static/js/main.c0f39a38.js",
+    "static/media/temoin5.png": "/universite-toukra-ndjamena/static/media/temoin5.f6be90fde3f5888b3510.png",
+    "static/media/etudiant9.png": "/universite-toukra-ndjamena/static/media/etudiant9.130a89085eb0491b722e.png",
+    "static/media/etudiant1.jpg": "/universite-toukra-ndjamena/static/media/etudiant1.88563a210c2a14617fb7.jpg",
+    "static/media/temoin4.png": "/universite-toukra-ndjamena/static/media/temoin4.61589638c0ced9188470.png",
+    "static/media/etudian.jpg": "/universite-toukra-ndjamena/static/media/etudian.60e6a44216ac108d897e.jpg",
+    "static/media/etudiant8.jpg": "/universite-toukra-ndjamena/static/media/etudiant8.113a8e781d8a748c42f0.jpg",
+    "static/media/etudiant4.jpg": "/universite-toukra-ndjamena/static/media/etudiant4.f3a34a8385e5ac53ad82.jpg",
+    "static/media/etudiant3.jpg": "/universite-toukra-ndjamena/static/media/etudiant3.1e0dea9f2966d33e6df1.jpg",
+    "static/media/class2.jpg": "/universite-toukra-ndjamena/static/media/class2.0b169702d6936fedc35f.jpg",
+    "static/media/professeur6.jpg": "/universite-toukra-ndjamena/static/media/professeur6.a11d0ffe906ce7f791b2.jpg",
+    "static/media/im6.png": "/universite-toukra-ndjamena/static/media/im6.40014b17cc21ede78ae2.png",
+    "static/media/temoin3.webp": "/universite-toukra-ndjamena/static/media/temoin3.2d3ff21f02c83217e464.webp",
+    "static/media/drapeau1.png": "/universite-toukra-ndjamena/static/media/drapeau1.250c0417b141098a0e42.png",
+    "static/media/class3.jpg": "/universite-toukra-ndjamena/static/media/class3.4627005062a619f9f36d.jpg",
+    "static/media/professeur7.jpeg": "/universite-toukra-ndjamena/static/media/professeur7.c25c9688809439138359.jpeg",
+    "static/media/class4.jpeg": "/universite-toukra-ndjamena/static/media/class4.b13cf74d1a30e5489ade.jpeg",
+    "static/media/etudiant2.jpeg": "/universite-toukra-ndjamena/static/media/etudiant2.d99287fb97d25880b34f.jpeg",
+    "static/media/etudiant6.jpeg": "/universite-toukra-ndjamena/static/media/etudiant6.43e13e40d687de1cf99e.jpeg",
+    "index.html": "/universite-toukra-ndjamena/index.html",
+    "main.4b10ce3e.css.map": "/universite-toukra-ndjamena/static/css/main.4b10ce3e.css.map",
+    "main.c0f39a38.js.map": "/universite-toukra-ndjamena/static/js/main.c0f39a38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b10ce3e.css",
+    "static/js/main.c0f39a38.js"
+  ]
+}
