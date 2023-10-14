@@ -105,8 +105,8 @@ function Carousel() {
       </div>
     </div>
     <div className="col-lg-4 col-12">
-      <form className='shadow'>
-        <h3>L'enregistrement pour nos cours </h3>
+      <form className='form shadow'>
+        <h4>L'enregistrement pour nos cours </h4>
        <div>
            {/* <label htmlFor="exampleFormControlInput1" className="form-label">Nom d'utilisateur</label> */}
        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Nom et Prenom" />

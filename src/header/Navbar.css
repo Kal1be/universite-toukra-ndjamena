@@ -23,18 +23,17 @@
 
   /* ****************************************the navbar brand**************************************************************** */
   .navbar-brand{
-    font-family: "Roboto";
+    font-family:"Roboto";
     font-weight: bold;
     font-size: 30px;
-    letter-spacing: -0.07rem;
-    word-spacing: -0.1rem;
+    letter-spacing: -0.04rem;
+    word-spacing: -0.2rem;
   }
   .nav-item{
-    transition: .53s border linear ;
-    border-bottom: 1px solid white;
+    transition: .53s border linear;
   }
   .nav-item:hover{
-    border-bottom: 2px solid #1876f2;
+    /* border-bottom: 2px solid #1876f2; */
     align-items:center;
   }
   .navbar-brand img{
@@ -52,10 +51,10 @@
 @media(max-width:1024px){
   .navbar-brand{
     font-family: "Roboto";
-    font-weight: bold;
-    font-size: 27px;
-    letter-spacing: -0.07rem;
-    word-spacing: -0.1rem;
+    font-size: 25px;
+    letter-spacing: -0.05rem;
+    word-spacing: -0.2rem;
+    font-weight: 300;
   }
   .nav-item{
     margin: 0 4px;
@@ -77,6 +76,7 @@
     position: absolute;
     left: 74px;
     top:56%;
+    font-weight: 200;
   }
   .divider img{
     width: 18px;
@@ -94,7 +94,7 @@
   }
 
   .nav-link{
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: #383838;
   }
@@ -126,7 +126,7 @@
     }
     .nav-item:hover{
       border-bottom: none;
-      align-items: stretch;
+      align-items: center;
     }
     
   .divider {
@@ -163,7 +163,7 @@
   }
 
   .update{
-    width: 300px;
+    width: 250px;
     height: 400px;
     margin-right: 32%;
   }
@@ -174,9 +174,8 @@
     border-bottom: 1px solid gainsboro;
   }
   .update ul li a{
-    font-size: 19px;
+    font-size: 17px;
     font-family:sans-serif;
-    font-weight: normal;
   }
 .dropdownmenu{
   position: absolute;
@@ -193,7 +192,7 @@
 
 .nav-item{
   margin:0 10px;
-  padding: 18px 0;
+  padding:1px 0;
     }
     #rowcol{
       width:1000px;
@@ -222,17 +221,10 @@
     }
     #rowcol ul li a{
       font-size: 17px;
-      font-family: "Roboto";
-      font-weight: normal;
+      font-family:sans-serif;
       text-decoration: none;
       color: gray;
     }
-    #rowcol ul li a{
-      font-size: 17px;
-      font-family: "Roboto";
-      font-weight: normal;
-    }
-
     @media(max-width:850px){
       .nav-item{
         margin:0 10px;

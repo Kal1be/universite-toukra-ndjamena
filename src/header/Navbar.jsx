@@ -10,7 +10,7 @@ function Navbar() {
         <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-sm-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
-  <h2 className='navbar-brand fs-lg-1 fs-3'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
+  <h2 className='navbar-brand fs-lg-1 fs-4'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
 
     {/* the bouton navbar icon toggle */}
     
@@ -193,7 +193,7 @@ function Navbar() {
 
 <nav className="navbar navbar-expand-lg px-lg-2 px-sm-0 shadow border " id="nav">
   <div className="container-fluid">
-  <h2 className='navbar-brand fs-lg-1 fs-3'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
+  <h2 className='navbar-brand fs-lg-1 fs-4'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
 
     {/* the bouton navbar icon toggle */}
     

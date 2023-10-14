@@ -37,9 +37,9 @@
     top: 35%;
   }
   #carousel-caption h3{
-    font-family: "Oswald";
+    font-family:'Times New Roman', Times, serif;
     padding: 0%;
-    font-size: 70px;
+    font-size: 65px;
     overflow: hidden;
     font-weight: bold;
   }
@@ -63,17 +63,17 @@
 
   /* ******************the body contenant the icon et au fur du form validation et son responsive****************************8 */
   #imge img{
-    width: 130px;
-    height:130px;
+    width: 90px;
+    height:90px;
   }
   #imge h4{
     font-weight: bold;
-    font-family: "Roboto";
+    font-family:sans-serif;
   }
   #imge p{
     color: gray;
     font-size: 18px;
-    font-family: "Roboto";
+    font-family:sans-serif;
     line-height: 1.8rem;
   }
   #contain{
@@ -89,9 +89,9 @@
    right: 7%;
     width: 26%;
   }
-  form h3{
-font-family: "Gabarito","Oswald";
-font-size: 40px;
+  form h4{
+font-family:'Times New Roman', Times, serif;
+font-size: 38px;
 font-weight: bold;
 padding: 3px 7px;
   }
@@ -162,10 +162,10 @@ padding: 3px 7px;
   }
  }
  #tree h3{
-  font-family: "Oswald";
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   margin-top: 45px;
-  font-size: 45px;
+  font-size: 38px;
   font-weight: bold;
   line-height:3.4rem;
  }
