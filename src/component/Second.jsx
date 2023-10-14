@@ -175,7 +175,7 @@ function Second() {
             <p className="text-center">Voici en quelques nos Professeurs et leurs listes au complet </p>
         </div>
         <div className="row row-cols-lg-4 row-cols-1" id="depend">
-          <div className="col-md-4 col-12">
+          <div className="col-lg-3 col-sm-6 py-md-2  col-12">
            <div className="card shadow" id="card">
             <img src={img8} alt=""  className="card-img-top"/>
           <div className="overlay">
@@ -190,7 +190,7 @@ function Second() {
             </div>
            </div>
           </div>
-          <div className="col-md-3 col-12">
+          <div className="col-lg-3 col-sm-6 py-md-2 col-12">
           <div className="card shadow" id="card">
           <img src={img9} alt="" className="card-img-top" />
           <div className="overlay">
@@ -200,12 +200,12 @@ function Second() {
           <FontAwesomeIcon icon={faInstagram}  className="icon"/>
           </div>
           <div className="card-body">
-              <h3 className="card-title">Enseignant chercheur</h3>
+              <h3 className="card-title">Professeur en Mathematique</h3>
               <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ipsa!</p>
             </div>
           </div>
           </div>
-          <div className="col-md-3 col-12">
+          <div className="col-lg-3 col-sm-6 py-md-2 col-12">
           <div className="card shadow" id="card">
           <img src={img10} alt="" className="card-img-top" />
           <div className="overlay">
@@ -220,7 +220,7 @@ function Second() {
             </div>
           </div>
           </div>
-          <div className="col-md-3 col-12">
+          <div className="col-lg-3 col-sm-6 py-md-2 col-12">
           <div className="card shadow" id="card">
           <img src={img11} alt="" className="card-img-top" />
           <div className="overlay">
@@ -230,7 +230,7 @@ function Second() {
           <FontAwesomeIcon icon={faInstagram}  className="icon"/>
           </div>
           <div className="card-body">
-              <h3 className="card-title">Docteur</h3>
+              <h3 className="card-title">Professeur en Mathematique</h3>
               <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ipsa!</p>
             </div>
           </div>

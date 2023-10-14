@@ -10,7 +10,7 @@ function Navbar() {
         <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
-  <h2 className='navbar-brand fs-lg-1 fs-4'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
+  <h2 className='navbar-brand'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
 
     {/* the bouton navbar icon toggle */}
     
@@ -86,7 +86,7 @@ function Navbar() {
 
       </li>
       <li className="nav-item">
-          <Link className="nav-link active" to="#">Instituts&amp;Centres  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+          <Link className="nav-link" to="#">Instituts&amp;Centres  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
          
         <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
@@ -126,7 +126,7 @@ function Navbar() {
         </li> 
      
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Nouvelles  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+          <Link className="nav-link " to="#">Nouvelles  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
           <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
@@ -143,7 +143,7 @@ function Navbar() {
           </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Biblioteques  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+          <Link className="nav-link" to="#">Biblioteques  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
         </li>
     </ul>
   </div>
@@ -160,21 +160,21 @@ function Navbar() {
           <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
         </li>
         <li className="nav-item ">
-          <Link className="nav-link active" to="#">A Propos </Link><span>+</span>
+          <Link className="nav-link" to="#">A Propos </Link><span>+</span>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active " to="#">
+          <Link className="nav-link  " to="#">
             Facultes </Link><span>+</span>
          
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Instituts&amp;Centres  </Link><span>+</span>
+          <Link className="nav-link " to="#">Instituts&amp;Centres  </Link><span>+</span>
         </li> 
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Nouvelles  </Link><span>+</span>
+          <Link className="nav-link " to="#">Nouvelles  </Link><span>+</span>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Biblioteques </Link><span>+</span>
+          <Link className="nav-link " to="#">Biblioteques </Link><span>+</span>
         </li>
       </ul>
     </div>
@@ -193,7 +193,7 @@ function Navbar() {
 
 <nav className="navbar navbar-expand-lg px-lg-2 px-sm-0 shadow border " id="nav">
   <div className="container-fluid">
-  <h2 className='navbar-brand fs-lg-1 fs-4'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
+  <h2 className='navbar-brand'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></h2>
 
     {/* the bouton navbar icon toggle */}
     
@@ -266,7 +266,7 @@ function Navbar() {
           </div>
       </li>
       <li className="nav-item">
-          <Link className="nav-link active" to="#">Instituts&amp;Centres </Link>
+          <Link className="nav-link" to="#">Instituts&amp;Centres </Link>
           <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
             <div className="col">
@@ -303,7 +303,7 @@ function Navbar() {
           </div>
         </li> 
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Nouvelles  </Link>
+          <Link className="nav-link" to="#">Nouvelles  </Link>
            <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
@@ -320,7 +320,7 @@ function Navbar() {
           </div>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
+          <Link className="nav-link" to="#">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
         </li>
     </ul>
   </div>
@@ -337,21 +337,21 @@ function Navbar() {
           <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
         </li>
         <li className="nav-item ">
-          <Link className="nav-link active" to="#">A Propos  </Link><span>+</span>
+          <Link className="nav-link" to="#">A Propos  </Link><span>+</span>
         </li>
         <li className="nav-item dropdown">
-          <Link className="nav-link active " >
+          <Link className="nav-link " >
             Facultes 
       <span>+</span>     </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Instituts&amp;Centres  </Link><span>+</span>
+          <Link className="nav-link" to="#">Instituts&amp;Centres  </Link><span>+</span>
         </li> 
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Nouvelles  </Link><span>+</span>
+          <Link className="nav-link" to="#">Nouvelles  </Link><span>+</span>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" to="#">Biblioteques  </Link><span>+</span>
+          <Link className="nav-link" to="#">Biblioteques  </Link><span>+</span>
         </li>
       </ul>
     </div>

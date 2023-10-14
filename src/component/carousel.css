@@ -39,7 +39,7 @@
   #carousel-caption h3{
     font-family:'Times New Roman', Times, serif;
     padding: 0%;
-    font-size: 65px;
+    font-size: 50px;
     overflow: hidden;
     font-weight: bold;
   }
@@ -84,7 +84,7 @@
     padding: 20px !important;
     border-radius: 20px !important;
     position: absolute;
-    top: 97%;
+    top: 98%;
     background-color: white;
    right: 7%;
     width: 26%;
@@ -97,14 +97,10 @@ padding: 3px 7px;
   }
  form input,select{
   padding: 10px 3px !important;
-  font-size: 22px !important;
+  font-size: 17px !important;
   border-radius: 20px !important;
   background-color: whitesmoke !important;
   margin: 14px 0;
- }
- form label{
-  font-size: 22px !important;
-  font-family: "Roboto";
  }
 #first{
   margin: 10px 0;
@@ -181,6 +177,48 @@ padding: 3px 7px;
   padding: 12px;
   font-size: 20px !important;
   border-radius: 20px;
+ }
+ @media(max-width:850px){
+  #tree h3{
+    font-family: "Oswald";
+    overflow: hidden;
+    margin-top: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height:1.9rem;
+   }
+
+   #tree p{
+    font-family: "Roboto";
+    line-height: 1.8rem;
+    font-size: 17px;
+    color: gray;
+    margin: 5px 0;
+   }
+   #tree button{
+    padding: 6px !important;
+    font-size: 20px !important;
+    border-radius: 20px;
+   }
+   #myimg{
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+   }
+   #first p{
+    position: absolute;
+    width:10%;
+    height: 7%;
+    background-color: rgb(15, 110, 235);
+    border-radius:60px;
+    object-fit:contain;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    padding: 10px;
+  }
  }
 
  @media(max-width:750px){
@@ -299,7 +337,6 @@ padding: 3px 7px;
       }
 
       form input,select{
-        padding: 9px 3px !important;
         font-size: 17px !important;
         border-radius: 20px !important;
         background-color: whitesmoke !important;

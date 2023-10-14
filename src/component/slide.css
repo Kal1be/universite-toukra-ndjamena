@@ -15,13 +15,13 @@
     width: 90%;
 }
 .modifie h5{
-   font-family: "Roboto";
+   font-family:Georgia, 'Times New Roman', Times, serif;
    font-weight: bold;
 }
 .modifie span{
     color: gray;
     font-size: 18px;
-    font-family: "Roboto";
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .carousel-item{
     background-color: whitesmoke !important;
@@ -42,7 +42,7 @@
     font-size: 30px;
 }
 .card p{
-    font-family: "Roboto";
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     color: gray;
 }
@@ -52,18 +52,18 @@
     justify-content: space-between;
 }
 .cards-wrapper div{
-   margin: 0 10px;
+margin: 0 8px;
 }
 
 .cards-wrapper div img{
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     transition: height .2s linear;
 }
 .cards-wrapper div img:hover{
     width: 100%;
-    height: 405px;
+    height: 300px;
 }
 #container{
     background-color: white !important;

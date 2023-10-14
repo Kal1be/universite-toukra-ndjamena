@@ -25,12 +25,16 @@
   .navbar-brand{
  font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 34px;
     letter-spacing: -0.04rem;
     word-spacing: -0.2rem;
+    font-size: 40px;
   }
   .nav-item{
-    transition: .53s border linear;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+   font-weight:600;
+   font-size: 18px;
   }
   .nav-item:hover{
     /* border-bottom: 2px solid #1876f2; */
@@ -48,12 +52,7 @@
     font-weight: 300;
 }
 
-@media(max-width:1024px){
-  .navbar-brand{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: 500;
-  }
+@media(max-width:1054px){
   .nav-item{
     margin: 0 4px;
   }
@@ -62,6 +61,22 @@
     height: 35px;
     object-fit: cover;
   }
+  #navbar h2{
+    font-size: 23px !important;
+  }
+  #nav h2{
+    font-size: 23px !important;
+  }
+  #navbar h2{
+      font-size: 21px;
+    }
+    #nav h2{
+      font-size: 21px;
+    }
+    .navbar-brand{
+        font-size: 18px;
+        word-spacing: -0.2rem;
+    }
 
 }
 
@@ -89,11 +104,11 @@
     background-color:rgb(5, 72, 196);
     margin: 5px;
   }
-
-  .nav-link{
-    font-size: 24px;
-    font-weight: 600;
-    color: #383838;
+  #navbar h2{
+    font-size: 29px;
+  }
+  #nav h2{
+    font-size: 29px;
   }
 
   #nav {
@@ -110,6 +125,12 @@
     #navbar{
         padding: 0 0;
         align-items: center;
+    }
+    #navbar h2{
+      font-size: 21px;
+    }
+    #nav h2{
+      font-size: 21px;
     }
     .navbar-brand{
         font-size: 18px;
@@ -165,13 +186,15 @@
   }
   .update ul li{
     margin: 10px 10px;
+    font-size: 16px !important;
   }
   .update ul li:hover{
     border-bottom: 1px solid gainsboro;
   }
   .update ul li a{
-    font-size: 17px;
+    font-size: 16px;
     font-family:sans-serif;
+    font-weight: 400;
   }
 .dropdownmenu{
   position: absolute;
@@ -184,12 +207,9 @@
 .dropdownmenu ul li a{
   text-decoration: none;
   color: gray;
+  font-size: 16px;
+  font-weight: 400;
 }
-
-.nav-item{
-  margin:0 10px;
-  padding:1px 0;
-    }
     #rowcol{
       width:900px;
       height: 500px;

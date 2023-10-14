@@ -20,15 +20,16 @@
     background-color: whitesmoke !important;
 }
 #card{
-    width: 100%;
+    width: 90%;
    border: none !important;
 }
 #card img{
-    height: 400px;
+    height: 350px;
+   width: 100%;
     transition: .4s linear;
 }
 #card img:hover{
-    height: 402px;
+    height: 350px;
 }
 /* la fin de cette partie */
 
@@ -51,7 +52,7 @@
     justify-content: space-between;
     background-color: rgba(2, 8, 59, 0.603);
     width:0;
-    height: 400px;
+    height: 350px;
     right:100%;
    padding: 15px 0;
    transition: .1s linear;
@@ -59,7 +60,7 @@
    opacity: 0;
 }
 .overlay:hover{
-    height: 402px;
+    height: 350px;
 }
 .icon{
     margin: 19px 10px;
