@@ -8,7 +8,7 @@
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
-    border: 1px solid black;
+    border: 1px solid #333;
     border-radius: 10%;
   }
   .navbar-toggler{
@@ -16,16 +16,16 @@
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    right: 7px;
-    top: 16px;
+    right: 6px;
+    top: 9px;
   }
 
 
   /* ****************************************the navbar brand**************************************************************** */
   .navbar-brand{
-    font-family:"Roboto";
+ font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 34px;
     letter-spacing: -0.04rem;
     word-spacing: -0.2rem;
   }
@@ -44,26 +44,23 @@
   }
 
   .navbar-brand span{
-    font-size: 6px;
+    font-size: 2px;
     font-weight: 300;
 }
 
 @media(max-width:1024px){
   .navbar-brand{
-    font-family: "Roboto";
+    font-family:'Times New Roman', Times, serif;
     font-size: 25px;
-    letter-spacing: -0.05rem;
-    word-spacing: -0.2rem;
-    font-weight: 300;
+    font-weight: 500;
   }
   .nav-item{
     margin: 0 4px;
   }
   .navbar-brand img{
-    width: 50px;
-    height: 53px;
+    width: 40px;
+    height: 35px;
     object-fit: cover;
-    margin-top: 5px;
   }
 
 }
@@ -107,7 +104,7 @@
     display: block;
     transition: top 0.3s;
     z-index: 100;
-    padding: 0;
+    padding: 0 !important;
   }
   @media(max-width:986px){
     #navbar{
@@ -116,13 +113,12 @@
     }
     .navbar-brand{
         font-size: 18px;
-        letter-spacing: -0.1rem;
-        word-spacing: -0.1rem;
+        word-spacing: -0.2rem;
     }
     .navbar-brand img{
-  width: 45px;
-  height: 46px;
-  margin-top: 7px;
+  width: 40px;
+  height: 40px;
+  margin-top: 2px;
     }
     .nav-item:hover{
       border-bottom: none;
@@ -134,8 +130,8 @@
     display: flex;
     align-items: center;
     width: 100px;
-    left: 56px;
-    top:52%;
+    left: 50px;
+    top:53%;
   }
   .divider img{
     width: 17px;
@@ -168,7 +164,7 @@
     margin-right: 32%;
   }
   .update ul li{
-    margin: 12px 10px;
+    margin: 10px 10px;
   }
   .update ul li:hover{
     border-bottom: 1px solid gainsboro;
@@ -195,7 +191,7 @@
   padding:1px 0;
     }
     #rowcol{
-      width:1000px;
+      width:900px;
       height: 500px;
       background-color: white;
      position: relative;

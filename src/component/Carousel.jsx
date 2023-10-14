@@ -166,7 +166,7 @@ function Carousel() {
                               idees et pratiques intellectuelles pertinentes repondant
                                aux besoins de la communaute du Tchad
                             et du monde en general."</p>
-              <h4 className='text-primary my-2'>< FontAwesomeIcon icon={faPhone} className='mx-1'/>Contactez ici:+235 66 73 73 99</h4>
+              <h5 className='text-primary my-2 fs-lg-3'>< FontAwesomeIcon icon={faPhone} className='mx-1 text-primary'/>Contactez ici:+235 66 73 73 99</h5>
               <button className='btn btn-primary w-60 my-3 shadow'>Voir nos cours</button>
         </div>
       </div>
