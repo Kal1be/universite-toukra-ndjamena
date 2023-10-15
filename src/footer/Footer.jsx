@@ -11,7 +11,7 @@ function Footer() {
       <div className="container-fluid shadow" id="containerfooter">
   <div className="row">
     <div className="col-lg-3 col-md-6 col-12">
-    <Link className='navbar-brand fs-lg-1 fs-3 mx-2' to="#"><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divide"><img src={img1} alt="" /></span></Link>
+    <Link className='navbar-brand fs-lg-1 fs-5 mx-2' to="#"><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divide py-lg-0 py-1 px-1"><img src={img1} alt="" /></span></Link>
             <p> Batîment du Senat, 
               Universitè de Ndjamèna, 
               Campus de Toukra,Ndjamèna, 

@@ -25,24 +25,23 @@
   .navbar-brand{
  font-family:"Roboto",sans-serif;
     font-weight: bold;
-    letter-spacing: -0.09999rem;
-    word-spacing: -0.2rem;
+   
     font-size: 40px;
   }
   .nav-item{
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
+    margin: 0 10px !important;
    font-weight:600;
-   font-size: 17px;
+   font-size: 17px !important;
   }
   .nav-item:hover{
     /* border-bottom: 2px solid #1876f2; */
     align-items:center;
   }
   .navbar-brand img{
-    width: 55px;
-    height: 58px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
     margin-top: 5px;
   }
@@ -91,20 +90,26 @@
   }
   #navbar .navbar-brand{
     font-size: 29px;
+    letter-spacing: -0.00001rem;
+    word-spacing: -0.11rem;
     font-family: "Roboto";
   }
   #nav .navbar-brand{
     font-size: 29px;
+    letter-spacing: -0.00001rem;
+    word-spacing: -0.11rem;
     font-family: "Roboto";
   }
 
-  #navbar{
+  #navbar,
+   Link{
     padding-top: 0 !important;
     padding-bottom: 4px !important;
     min-height: 20px !important;
   }
 
-  #nav {
+  #nav,
+  Link {
     background-color: whitesmoke;
     position: fixed;
     top: -150px;
@@ -124,13 +129,13 @@
     }
     #navbar .navbar-brand{
       font-size: 21px;
-      letter-spacing: -0.09999rem;
-    word-spacing: -0.1rem;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.009rem;
     }
     #nav .navbar-brand{
       font-size: 21px;
-      letter-spacing: -0.09999rem;
-    word-spacing: -0.1rem;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.009rem;
     }
     .navbar-brand img{
   width: 40px;
@@ -147,12 +152,12 @@
     display: flex;
     align-items: center;
     width: 100px;
-    left: 48px;
-    top:64%;
+    left: 50px;
+    top:60%;
   }
   .divider img{
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     object-fit: contain;
   }
   
