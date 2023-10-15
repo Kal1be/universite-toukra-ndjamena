@@ -67,7 +67,7 @@ function Carousel() {
    <div className="row row-cols-lg-2 row-cols-1">
     <div className="col-lg-12 col-12" id='imge'>
     <div className="row">
-      <div className="col-lg-4 col-12">
+      <div className="col-lg-4 col-sm-6 col-12">
         <img src={img4} alt="" />
         <h4>Centre d'enseignement à <br/>
           distance</h4>
@@ -77,7 +77,7 @@ function Carousel() {
         de gagner un diplôme via une 
       apprentissage à distance.</p>
         </div>
-        <div className="col-lg-4 col-12">
+        <div className="col-lg-4 col-sm-6 col-12">
         <img src={img5} alt="" />
         <h4>Programme de premier <br/>
               cycle</h4>
@@ -88,7 +88,7 @@ function Carousel() {
         </div>
     </div>
       <div className="row">
-      <div className="col-lg-4 col-12">
+      <div className="col-lg-4 col-sm-6 col-12">
       <img src={img6} alt="" />
         
         <h4>LVT/DIplome</h4>
@@ -97,7 +97,7 @@ function Carousel() {
     de 2 ou 3 mois par ans pour étudier 
     pour un Diploma </p>
         </div>
-      <div className="col-lg-4 col-12">
+      <div className="col-lg-4 col-sm-6 col-12">
       <img src={img7} alt="" />
         <h4>La vie universitaire</h4>
         <p>L'universite offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants</p>

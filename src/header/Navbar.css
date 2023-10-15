@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 /* regularisation du navbar et de ces contenu */
 
 /* ************************* the navbar bouton menu hamburger ************************************** */
@@ -23,9 +23,9 @@
 
   /* ****************************************the navbar brand**************************************************************** */
   .navbar-brand{
- font-family:'Times New Roman', Times, serif;
+ font-family:"Roboto",sans-serif;
     font-weight: bold;
-    letter-spacing: -0.04rem;
+    letter-spacing: -0.09999rem;
     word-spacing: -0.2rem;
     font-size: 40px;
   }
@@ -61,22 +61,7 @@
     height: 35px;
     object-fit: cover;
   }
-  #navbar h2{
-    font-size: 23px !important;
-  }
-  #nav h2{
-    font-size: 23px !important;
-  }
-  #navbar h2{
-      font-size: 21px;
-    }
-    #nav h2{
-      font-size: 21px;
-    }
-    .navbar-brand{
-        font-size: 18px;
-        word-spacing: -0.2rem;
-    }
+ 
 
 }
 
@@ -104,11 +89,19 @@
     background-color:rgb(5, 72, 196);
     margin: 5px;
   }
-  #navbar h2{
+  #navbar .navbar-brand{
     font-size: 29px;
+    font-family: "Roboto";
   }
-  #nav h2{
+  #nav .navbar-brand{
     font-size: 29px;
+    font-family: "Roboto";
+  }
+
+  #navbar{
+    padding-top: 0 !important;
+    padding-bottom: 4px !important;
+    min-height: 20px !important;
   }
 
   #nav {
@@ -119,22 +112,25 @@
     display: block;
     transition: top 0.3s;
     z-index: 100;
-    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 4px !important;
+    min-height: 20px !important;
+   
   }
   @media(max-width:986px){
     #navbar{
         padding: 0 0;
         align-items: center;
     }
-    #navbar h2{
+    #navbar .navbar-brand{
       font-size: 21px;
+      letter-spacing: -0.09999rem;
+    word-spacing: -0.1rem;
     }
-    #nav h2{
+    #nav .navbar-brand{
       font-size: 21px;
-    }
-    .navbar-brand{
-        font-size: 18px;
-        word-spacing: -0.2rem;
+      letter-spacing: -0.09999rem;
+    word-spacing: -0.1rem;
     }
     .navbar-brand img{
   width: 40px;
@@ -151,12 +147,12 @@
     display: flex;
     align-items: center;
     width: 100px;
-    left: 50px;
-    top:53%;
+    left: 48px;
+    top:64%;
   }
   .divider img{
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
     object-fit: contain;
   }
   

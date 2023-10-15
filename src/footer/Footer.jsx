@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
  import { faFacebook,faWhatsapp,faLinkedin,faInstagram,faGoogle,faTwitter } from "@fortawesome/free-brands-svg-icons";
  import img1 from "../img/img1/drapeau1.png"
  import img2 from "../img/img1/im6.png"
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
       <div className="container-fluid shadow" id="containerfooter">
   <div className="row">
     <div className="col-lg-3 col-md-6 col-12">
-    <h2 className='navbar-brand fs-lg-1 fs-3 mx-2'><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divide"><img src={img1} alt="" className="" /></span></h2>
+    <Link className='navbar-brand fs-lg-1 fs-3 mx-2' to="#"><img src={img2} alt="" /> <strong>Universite de <strong className='text-primary'>Toukra</strong> </strong><span className="divide"><img src={img1} alt="" /></span></Link>
             <p> Batîment du Senat, 
               Universitè de Ndjamèna, 
               Campus de Toukra,Ndjamèna, 
