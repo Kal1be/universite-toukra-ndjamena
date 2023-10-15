@@ -10,7 +10,7 @@ function Navbar() {
         <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
-  <Link className='navbar-brand' to="#"><img src={img2} alt="" /> <strong><strong>U</strong>niversite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
+  <Link className='navbar-brand' to="#"><img src={img2} alt="" />Universite de <strong className='text-primary'>Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
 
     {/* the bouton navbar icon toggle */}
     
@@ -148,10 +148,10 @@ function Navbar() {
     </ul>
   </div>
 
-  {/* l'affichage du navbar sur le small screen */}
+  {/* l'affichage du navbar sur le strong screen */}
   <div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div className="offcanvas-header">
-      <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Bienvenue a Toukra !</h5>
+      <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Bienvenue a <strong className='text-primary'>Toukra</strong> !</h5>
       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
     </div>
     <div className="offcanvas-body scroll-auto">
@@ -193,7 +193,7 @@ function Navbar() {
 
 <nav className="navbar navbar-expand-lg px-lg-2 px-sm-0 shadow border " id="nav">
   <div className="container-fluid">
-  <Link className='navbar-brand' to="#"><img src={img2} alt="" /> <strong><strong>U</strong>niversite de <strong className='text-primary'>Toukra</strong> </strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
+  <Link className='navbar-brand' to="#"><img src={img2} alt="" />Universite de <small>Toukra</small><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
 
     {/* the bouton navbar icon toggle */}
     

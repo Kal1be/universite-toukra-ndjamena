@@ -9,10 +9,16 @@
     display: block;
     position: absolute;
     padding: 0 20px;
-    background-image: linear-gradient(rgba(13, 47, 70, 0.7),rgba(13, 47, 70, 0.7));
+    background-image: linear-gradient(#0b1c39be,#0b1c39c4);
     width: 100vw;
     top: 0;
     height: 700px;
+  }
+  #carousel-indicators button{
+  width: 5px;
+  height: 5px;
+  padding: 2px;
+     border-radius: 50%;
   }
   #btn button{
     position: absolute;
@@ -64,16 +70,17 @@
 
   /* ******************the body contenant the icon et au fur du form validation et son responsive****************************8 */
   #imge img{
-    width: 90px;
-    height:90px;
+    width: 80px;
+    height:80px;
   }
   #imge h4{
     font-weight: bold;
     font-family:sans-serif;
+    font-size: 22px;
   }
   #imge p{
     color: gray;
-    font-size: 18px;
+    font-size: 17px;
     font-family:sans-serif;
     line-height: 1.8rem;
   }
@@ -84,15 +91,17 @@
     border: 1px solid white !important ;
     padding: 20px !important;
     border-radius: 20px !important;
-    position: absolute;
-    top: 98%;
+    position:absolute;
+   top: 75%;
     background-color: white;
-   right: 7%;
-    width: 26%;
+   right: 4%;
+    width: 25%;
   }
+
+   
   form h4{
 font-family:'Times New Roman', Times, serif;
-font-size: 38px;
+font-size: 32px;
 font-weight: bold;
 padding: 3px 7px;
   }
@@ -124,7 +133,7 @@ padding: 3px 7px;
   display: block;
   padding: 4px;
   text-align: center;
-  font-family: "Oswald";
+  font-family:'Times New Roman', Times, serif;
 }
   
  #myimg{
@@ -181,7 +190,7 @@ padding: 3px 7px;
  }
  @media(max-width:850px){
   #tree h3{
-    font-family: "Oswald";
+    font-family:'Times New Roman', Times, serif;
     overflow: hidden;
     margin-top: 2px;
     font-size: 25px;
@@ -245,7 +254,7 @@ padding: 3px 7px;
     display: block;
     padding: 4px;
     text-align: center;
-    font-family: "Oswald";
+    font-family:'Times New Roman', Times, serif;
   }
   #myimg{
     width: 100%;
@@ -279,7 +288,7 @@ padding: 3px 7px;
  
  }
  #tree h3{
-  font-family: "Oswald";
+  font-family:'Times New Roman', Times, serif;
   overflow: hidden;
   margin-top: 2px;
   font-size: 25px;
@@ -331,7 +340,7 @@ padding: 3px 7px;
     width:100%;
   }
   form h4{
-    font-family: "Gabarito","Oswald";
+    font-family:sans-serif;
     font-size: 22px;
     font-weight: bold;
     padding: 1px 2px;
@@ -375,10 +384,11 @@ padding: 3px 7px;
         object-fit: cover;
         font-size: 17px;
         margin: 0 15px;
+        display: none;
       }
 
       #carousel-caption h3{
-        font-family: "Oswald";
+        font-family:'Times New Roman', Times, serif;
         padding: 0%;
         font-size: 23px;
         overflow: hidden;

@@ -104,8 +104,8 @@ function Carousel() {
         </div>
       </div>
     </div>
-    <div className="col-md-7 col-12">
-      <form className='form shadow'>
+    <div className="col-md-7 col-12" id='form'>
+      <form className='form shadow' id='formelement'>
         <h4>L'enregistrement pour nos cours </h4>
        <div>
            {/* <label htmlFor="exampleFormControlInput1" className="form-label">Nom d'utilisateur</label> */}
