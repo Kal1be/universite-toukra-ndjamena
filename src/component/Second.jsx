@@ -27,10 +27,10 @@ const SecondOne=()=>{
         <p className="text-center " id="p">Jeffrey crikey victoria sponge mush spiffing super arse over tit matie 
           boy smashing. The little rotter off his nut codswallop.!</p>
         <div className="row shadow" id="contenuimg">
-          <div className="col-lg-5 col-12">
+          <div className="col-sm-5 col-12">
            <div className="direction"> <img src={img1} alt="" /></div>
           </div>
-          <div className="col-lg-7 col-12">
+          <div className="col-sm-7 col-12">
             <p className="text-warning fs-4 my-3">27 Avril,2024</p>
             <h1 id="h1a">Remise de Diplome de finalisation pour nos Laureats</h1>
             <div className="modifiant my-2">
@@ -42,10 +42,10 @@ const SecondOne=()=>{
           </div>
         </div>
         <div className="row shadow" id="contenuimg">
-          <div className="col-lg-5 col-12">
+          <div className="col-sm-5 col-12">
            <div className="direction"> <img src={img2} alt="" /></div>
           </div>
-          <div className="col-lg-7 col-12">
+          <div className="col-sm-7 col-12">
             <p className="text-warning fs-4 my-3">27 Janvier,2024</p>
             <h1 id="h1a">Championat entre l'universite de Toukra et celui de Gassi</h1>
             <div className="modifiant my-2">
@@ -57,10 +57,10 @@ const SecondOne=()=>{
           </div>
         </div>
         <div className="row shadow" id="contenuimg">
-          <div className="col-lg-5 col-12">
+          <div className="col-sm-5 col-12">
            <div className="direction"> <img src={img3} alt="" /></div>
           </div>
-          <div className="col-lg-7 col-12">
+          <div className="col-sm-7 col-12">
             <p className="text-warning fs-4 my-3">27 Decembre,2024</p>
             <h1 id="h1a"> Des Concours organiser pour cette fin d'annee 2023-2024</h1>
             <div className="modifiant my-2">
